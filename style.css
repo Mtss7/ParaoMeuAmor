@@ -1,0 +1,64 @@
+.tituloo{
+    text-align: center;
+    justify-content: space-between;
+    color: #000000;
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+.nomepag{
+    font-family: "Caveat", cursive;
+}
+
+.frases{
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+    font-style: italic
+}
+
+        body {
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: rgb(255, 112, 80);
+            font-family: Arial, sans-serif;
+            margin: auto;
+
+        }
+        .envelope {
+            margin-left: 390px;
+            border-radius: 40px;
+            width: 550px;
+            height: 350px;
+            background: #e4e4e4;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+        .message-box {
+            display: none; 
+            width: auto;
+            height: auto    ;
+            border-radius: 25px;            
+            background: #ffffff;
+            position: absolute;
+            margin-top: 320px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .message-box p {
+            width: 100%;
+            height: auto;
+            border: none;
+            resize: none;
+            outline: none;
+            font-size: 16px;
+        }
+        .message-box.open {
+            display: block;
+        }
